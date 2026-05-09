@@ -14,3 +14,4 @@ def ops_ts_argmin(input_path: str, window: int = 20) -> np.ndarray:
 
     return ts_argmin.to_numpy(dtype=np.float64, copy=False).reshape(-1, 1)
 
+
