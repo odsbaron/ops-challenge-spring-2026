@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import numba as nb
-
+# TESTS: 1.0
 @nb.njit
 def roll_argmin_numba(arr, window):
     n = len(arr)
